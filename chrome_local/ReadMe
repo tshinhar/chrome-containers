@@ -1,0 +1,4 @@
+use this command to be able to run GUI apps:
+
+sudo docker run -ti --rm --net=host --env="DISPLAY" --user apps --privileged --volume="$HOME/.Xauthority:/home/apps/.Xauthority:rw" chrome_con
+
